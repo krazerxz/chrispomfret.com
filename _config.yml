@@ -1,0 +1,17 @@
+title: Chris Pomfret
+description: >
+  Graduating from Lancaster University in 2014 with a degree in Computer Science, I’ve worked freelance as a website designer throughout uni and since. I’ve worked with sole traders and businesses with offices in multiple countries.
+baseurl: ""
+url: "http://chrispomfret.com"
+github_username:  krazerxz
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+source: .
+destination: ../destination
