@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/css/chrispomfret.css" rel="stylesheet" type="text/css">
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <title>{{ site.title }} | {{ page.title }}</title>
+  </head>
+  <body>
+    {% include navbar.html %}
+    <div class="container">
+      {{ content }}
+    </div>
+    {% include footer.html %}
+  </body>
+</html>
