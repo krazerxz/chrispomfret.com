@@ -1,3 +1,4 @@
+/* NAVBAR */
 .navbar-default .navbar-nav > li > a {
   color: black;
   font-size: 12px;
@@ -15,11 +16,32 @@
   float: none;
   vertical-align: top;
 }
+.dropdown-menu > li > a:hover {
+  background-color: #36bced;
+}
+
+.dropdown-menu > li > a {
+  padding: 10px 15px;
+  color: #636467;
+  display: block;
+  clear: both;
+  font-weight: 400;
+  line-height: 1.42857143;
+}
+
+.dropdown-menu li:hover .sub-menu {
+  visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
 
 .navbar .navbar-collapse {
   text-align: center;
 }
 
+/* FOOTER */
 .footer {
   position: absolute;
   bottom: 0;

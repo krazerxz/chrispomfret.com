@@ -4,6 +4,5 @@ title: Home
 permalink: /
 ---
 
-Chris Pomfret
-
+==== Chris Pomfret ====
 Homepage content
