@@ -7,6 +7,6 @@
 ### Workflow
 
  - Change
- - Version and commit
+ > bundle exec jekyll build
  - Push
  - Clone / Push to remote
